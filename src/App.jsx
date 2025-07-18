@@ -2,6 +2,7 @@ import { useState } from "react";
 import { MovieContext,ThemeContext } from "./context";
 import Page from "../page";
 
+
 function App() {
   const[cartData,setCartData]=useState([])
   const[darkMode,setDarkMode]=useState(true)
